@@ -82,9 +82,9 @@ const Header = () => {
                         </div>
 
                         <div className="flex flex-col items-center gap-4 pt-2 border-t border-gray-100">
-                            <p className="text-txt-title flex gap-2 items-center justify-center hover:text-accent-gold hover:bg-gray-800 w-full p-2.5 text-xs uppercase">
+                            <p className="text-txt-title flex gap-2 items-center justify-center hover:text-accent-dark-gold hover:bg-gray-800 w-full p-2.5 text-xs uppercase">
                                 Giỏ hàng
-                                <BsCartCheck className="text-txt-title hover:text-accent-gold text-lg cursor-pointer font-medium" />
+                                <BsCartCheck className="text-txt-title hover:text-accent-dark-gold text-lg cursor-pointer font-medium" />
                             </p>
                             <Button
                                 className="bg-primary text-txt-title text-xs md:text-sm w-full rounded"

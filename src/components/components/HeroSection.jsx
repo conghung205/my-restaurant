@@ -20,7 +20,7 @@ const HeroSection = () => {
                 <p className="text-third mb-1 tracking-widest uppercase text-xs md:text-sm">
                     trải nghiệm ẩm thực cao cấp
                 </p>
-                <h1 className="text-5xl md:text-7xl leading-[1.2] mb-6 text-txt-title font-extrabold">
+                <h1 className="text-5xl md:text-6xl lg:text-7xl leading-[1.2] mb-6 text-txt-title font-extrabold">
                     NHÀ HÀNG LẨU NƯỚNG
                     <span className="text-secondary"> SIZZLE</span>
                 </h1>
