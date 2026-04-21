@@ -9,8 +9,11 @@
 
   /* --- Màu Điểm Nhấn --- */
   --color-primary: #c0392b; 
-  --color-accent-gold: #e67e22;
-  --color-accent-dark-gold: #d35400;
+  --color-secondary: #ffb4a9; 
+  --color-third: #ffb4a9; 
+  --color-fourth: #a88a85; 
+  --color-accent-gold: #ffb783  ;
+  --color-accent-dark-gold: #db7619   ;
 
   /* --- Màu Chữ --- */
   --color-txt-title: #f8f9fa;

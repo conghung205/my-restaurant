@@ -29,11 +29,11 @@ const Header = () => {
     }, [isMobile]);
 
     return (
-        <div>
-            <header className=" bg-bg-main px-5 md:px-0 py-5 flex items-start">
+        <div className="relative">
+            <header className="fixed top-0 left-0 right-0 z-10 shadow-xl/30 bg-bg-main px-5 md:px-0 py-5 flex items-start">
                 <div className="container mx-auto w-7xl flex justify-between items-center">
                     {/* logo */}
-                    <h2 className="text-2xl md:text-3xl font-bold text-txt-title cursor-pointer italic">
+                    <h2 className="text-2xl md:text-3xl text-shadow-lg text-shadow-orange-800 font-bold text-txt-title cursor-pointer italic">
                         sizzle
                     </h2>
                     <div className="hidden md:block">
@@ -41,7 +41,7 @@ const Header = () => {
                     </div>
 
                     <div className="hidden md:flex items-center gap-3.5 md:gap-5">
-                        <BsCartCheck className="text-txt-title hover:text-accent-gold text-xl cursor-pointer font-medium" />
+                        <BsCartCheck className="text-txt-title hover:text-accent-dark-gold text-xl cursor-pointer font-medium" />
                         <Button
                             className="bg-primary text-txt-title text-xs md:text-sm rounded"
                             text={"Đặt bàn ngay"}

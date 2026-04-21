@@ -10,7 +10,7 @@ const Navbar = ({ mobileMenu }) => {
                 >
                     {MENU_ITEM.map((item) => (
                         <li
-                            className={`text-gray-300 p-2.5 hover:text-accent-gold ${mobileMenu ? "hover:bg-gray-800 w-full" : ""} text-xs md:text-sm cursor-pointer font-medium uppercase`}
+                            className={`text-gray-300 p-2.5 hover:text-accent-dark-gold ${mobileMenu ? "hover:bg-gray-800 w-full" : ""} text-xs md:text-sm cursor-pointer font-medium uppercase`}
                             key={item.id}
                         >
                             {item.title}
