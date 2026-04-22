@@ -1,5 +1,5 @@
 import React from "react";
-import { MENU_ITEM } from "../../../constants/menu";
+import { MENU_ITEMS } from "../../../constants/data";
 
 const Navbar = ({ mobileMenu }) => {
     return (
@@ -8,7 +8,7 @@ const Navbar = ({ mobileMenu }) => {
                 <ul
                     className={`flex gap-5 md:gap-8 ${mobileMenu ? "flex-col" : ""}`}
                 >
-                    {MENU_ITEM.map((item) => (
+                    {MENU_ITEMS.map((item) => (
                         <li
                             className={`text-gray-300 p-2.5 hover:text-accent-dark-gold ${mobileMenu ? "hover:bg-gray-800 w-full" : ""} text-xs md:text-sm cursor-pointer font-medium uppercase`}
                             key={item.id}
