@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Navbar from "./Navbar";
 import { BsCartCheck } from "react-icons/bs";
 import { IoMenu } from "react-icons/io5";
 import { IoMdClose } from "react-icons/io";
 import Button from "../../common/Button";
+import Navbar from "./Navbar";
 
 const Header = () => {
     const [isMobile, setIsMobile] = useState(false);
@@ -30,7 +30,7 @@ const Header = () => {
 
     return (
         <div className="relative">
-            <header className="fixed top-0 left-0 right-0 z-10 shadow-xl/30 bg-bg-main px-6 md:px-0 py-5 flex items-start">
+            <header className="fixed top-0 left-0 right-0 z-[100] shadow-xl/30 bg-bg-main px-6 md:px-0 py-5 flex items-start">
                 <div className="container mx-auto w-7xl flex justify-between items-center">
                     {/* logo */}
                     <h2 className="text-2xl md:text-3xl text-shadow-lg text-shadow-orange-800 font-bold text-txt-title cursor-pointer italic">

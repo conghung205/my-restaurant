@@ -3,10 +3,10 @@ import formatCurrency from "../../utils/currency";
 
 const ProductItem = ({ title, desc, price, image }) => {
     return (
-        <div className="flex cursor-pointer group rounded flex-col w-full h-full">
-            <div className="flex-1 min-h-0 overflow-hidden h-full">
+        <div className="flex cursor-pointer group rounded flex-col h-full">
+            <div className="overflow-hidden">
                 <img
-                    className="w-full rounded hover:scale-105 transition-all duration-300 h-full object-cover"
+                    className="w-full max-h-[250px] rounded hover:scale-105 transition-all duration-300 md:min-h-0 h-full object-cover"
                     src={image}
                     alt=""
                 />

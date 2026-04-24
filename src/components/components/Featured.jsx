@@ -12,7 +12,7 @@ const Featured = () => {
     );
     return (
         <section className="bg-bg-main">
-            <div className="container md:w-7xl md:mx-auto pt-14 px-6 md:px-0">
+            <div className="container md:w-7xl  md:mx-auto pt-14 px-6 lg:px-0">
                 <p className="text-accent-gold flex items-center gap-3 tracking-widest uppercase text-xs md:text-sm">
                     <TfiLayoutLineSolid /> Lựa chọn thượng hạng
                 </p>
@@ -27,10 +27,9 @@ const Featured = () => {
                         nhân ẩm thực
                     </p>
                 </div>
-
                 {/* products */}
-                <div className="flex gap-7 h-[700px] mt-8 md:mt-10">
-                    <div className="flex-2 overflow-hidden relative h-full rounded group">
+                <div className="flex flex-col md:flex-row gap-7 md:h-[700px] mt-8 md:mt-10">
+                    <div className="w-full cursor-pointer md:w-3/4 overflow-hidden relative h-full rounded group">
                         <img
                             className="w-full group-hover:scale-105 transition-all duration-300 object-cover h-full min-h-0 rounded"
                             src={productSpecialty.images[0]}
@@ -60,7 +59,7 @@ const Featured = () => {
                                 .map((item) => (
                                     <div
                                         key={item.id}
-                                        className="flex-1 rounded min-h-0"
+                                        className="rounded min-h-0"
                                     >
                                         <ProductItem
                                             title={item.name}
@@ -89,7 +88,6 @@ const Featured = () => {
                         />
                     ))}
                 </div>
-
                 {/* button all */}
                 <div className="py-16 flex justify-center">
                     <Button
