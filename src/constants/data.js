@@ -7,23 +7,23 @@ import productComboHotpot from "../assets/images/product_combo_hotpot.png";
 export const MENU_ITEMS = [
     {
         id: 1,
-        title: "Thực đơn",
+        title: "Trang Chủ",
         path: "/",
     },
     {
         id: 2,
-        title: "Đặt bàn",
-        path: "/",
+        title: "Thực đơn",
+        path: "/menu",
     },
     {
         id: 3,
-        title: "Thư viện",
-        path: "/",
+        title: "Đặt bàn",
+        path: "/booking",
     },
     {
         id: 4,
         title: "Câu chuyện",
-        path: "/",
+        path: "/story",
     },
 ];
 
